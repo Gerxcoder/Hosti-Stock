@@ -1,0 +1,15 @@
+# ═══════════════════════════════════════════════════════════════
+# Dependencias del módulo de IA de Hosti-Stock
+# ═══════════════════════════════════════════════════════════════
+# Instalar con: pip install -r requirements.txt
+#
+# - pandas: manipulación de datos tabulares (CSV, DataFrames)
+# - scikit-learn: modelos de Machine Learning
+# - joblib: serialización eficiente de modelos entrenados
+# - fastapi + uvicorn: microservicio HTTP para Docker
+# ═══════════════════════════════════════════════════════════════
+pandas>=2.0.0
+scikit-learn>=1.3.0
+joblib>=1.3.0
+fastapi>=0.110.0
+uvicorn>=0.27.0

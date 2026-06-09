@@ -1,0 +1,47 @@
+# ───────────── Secretos / entorno ─────────────
+.env
+*.env
+!.env.example
+
+# ───────────── Java / Maven ─────────────
+target/
+*.class
+*.jar
+*.war
+!**/.mvn/wrapper/maven-wrapper.jar
+*.log
+hs_err_pid*
+replay_pid*
+
+# ───────────── Python / IA ─────────────
+ia/.venv/
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Modelos entrenados y datos generados (se regeneran)
+ia/modelos/*.pkl
+ia/modelos/*.joblib
+ia/data/*.csv
+
+# ───────────── MySQL / datos ─────────────
+*.sql.bak
+mysql_data/
+
+# ───────────── Documentación generada ─────────────
+docs/javadoc/
+
+# ───────────── IDE / Editores / Config local ─────────────
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# ───────────── Sistema operativo ─────────────
+.DS_Store
+Thumbs.db
+desktop.ini
