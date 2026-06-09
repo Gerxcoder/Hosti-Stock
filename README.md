@@ -75,7 +75,7 @@ hosti-stock/
 
 ## Variables de entorno
 
-Copia `.env.example` a `.env` y rellena los valores. El fichero `.env` nunca debe subirse al repositorio.
+Copia `.env.example` a `.env` y rellena los valores.
 
 | Variable | Descripción |
 |---|---|
